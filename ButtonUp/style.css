@@ -1,0 +1,38 @@
+* {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+#search {
+    border:mediumaquamarine;
+    border-style: solid;
+    color:mediumaquamarine;
+    border-radius: 10px;
+    width: 100px;
+    background-color: white;
+}
+
+#plus {
+    border:mediumaquamarine;
+    border-style: solid;
+    color:white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: mediumaquamarine;
+    text-align: center;
+    padding: 0px
+}
+
+#createacct {
+    color:white;
+    background-color:royalblue;
+    box-shadow: 5px 5px 5px rgb(5, 5, 5);
+    padding-left: 15px;
+    padding-right: 15px;
+    border:black;
+    border-style: solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}

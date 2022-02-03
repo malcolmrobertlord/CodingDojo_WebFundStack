@@ -1,0 +1,38 @@
+img {
+    height: 200px;
+}
+
+#container {
+    width: 800px;
+}
+h1 {
+   margin-left: 300px;
+}
+
+#toprow {
+    display: flex;
+    background-color: skyblue;
+    width: 800px;
+    justify-content: space-around;
+    height:250px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#row2 {
+    display: flex;
+    background-color:lightpink;
+    width: 800px;
+    justify-content: space-around;
+    height:250px;
+    align-items: center;
+}
+
+#row3 {
+    display: flex;
+    background-color:darkseagreen;
+    width: 800px;
+    justify-content: space-around;
+    height:250px;
+    align-items: center;
+}

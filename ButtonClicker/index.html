@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <input type="text" name="search" id="search" placeholder="Search">
+        <button onclick="logoff(this)" id="loginbtn">Login</button>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="container" id="wordcontainer">
+                <div id="leftwordbox">
+                    <h1 class=ninjadefinition>ninja</h1>
+                    <p class="definitiontext"><em>noun</em></p>
+                    <p class="definitiontext">Plural: <em>ninjas</em></p>
+                    <button onclick="alert('ninja was liked')" class=likesbtn>13 Likes</button>
+                </div>
+                <div id="whitebox">
+                    <p id="whiteboxtext"> A practitioner skilled in the
+                    <a href="">Japanese</a> 
+                    art of 
+                    <a href="">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+        <div class="container2" id="wordcontainer">
+            <div id="leftwordbox">
+                <h1 class=ninjadefinition>ninja</h1>
+                <p class="definitiontext"><em>noun</em></p>
+                <p class="definitiontext">Plural: <em>ninjas</em></p>
+                <button onclick="alert('ninja was liked')" class=likesbtn>37 Likes</button>
+            </div>
+            <div id="whitebox">
+                <p id="whiteboxtext"> A 
+                <a href="">programmer</a> 
+                who breaks down problems with
+                <a href="">zen</a>
+                </p>
+                <p id="whiteboxtext">-like focus
+                </p>
+                
+            </div>
+        </div>
+    </div>
+        <div class="column">
+            <div id="container3">
+                    <h1 id=definitiontext>Dojonary is defined 
+                    </h1>
+                    <h1 id=definitiontext>
+                        by 
+                        <strong>YOU</strong>
+                    </h1>    
+                    <button onclick="remove(this)" id="adddefbtn">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

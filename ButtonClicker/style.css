@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    font-family:'Roboto', sans-serif;
+}
+
+/*top navigation*/
+
+.nav {
+    display: flex;
+    background-color:rgb(167, 167, 167);
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    font-family:'Roboto', sans-serif;
+    color: black;
+    z-index: 2;
+}
+
+#search {
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+#loginbtn {
+    background-color: rgb(4, 4, 238);
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px rgb(2, 2, 2);
+    border: black;
+    border-style: solid;
+    height: 50px;
+    width: 80px;
+}
+
+/*row and column*/
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    margin-left: 150px;
+}
+
+.column {
+    margin: 20px;
+}
+
+/*defintion box*/
+
+#wordcontainer {
+    display: flex;
+}
+
+#leftwordbox{
+    width: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ninjadefinition {
+    height: 40px;
+}
+
+.definitiontext {
+    height: 20px;
+}
+
+.likesbtn {
+    height: 30px;
+    width: 70px;
+    box-shadow: 2px 2px 2px rgb(2, 2, 2);
+    background-color:rgb(247, 191, 88);
+    margin-top: 20px;
+}
+
+.container, .container3 {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+
+.container, .container2 {
+    width:600px;
+}
+
+#bluebox {
+    background-color:rgb(88, 183, 226);
+    padding-bottom: 20px;
+}
+
+a {
+    width: 1px;
+    height: 1px;
+}
+
+.container, .container2, #container3, #container4 { 
+    background-color: white;
+    height: 200px;
+    border:black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#whitebox {
+    width: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+#whiteboxtext {
+   display: inline;
+   margin-top: 20px;
+}
+
+/* 2nd definition Box */
+
+.container2 {
+    margin-top: 20px;
+}
+
+.greyheader {
+    background-color: rgb(78, 78, 78);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.headerwords {
+    color: white;
+    margin-left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#education {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#dates {
+    margin-top: 20px;
+    color: grey;
+}
+
+.educationinformation {
+    margin-top: 20px;
+}
+
+/* connection requests */
+
+#container3 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#adddefbtn {
+    background-color:rgb(62, 168, 62);
+    box-shadow: 2px 2px 2px rgb(2, 2, 2);
+    border: black;
+    border-style: solid;
+    height: 50px;
+    width: 120px;
+    margin-left: 80px;
+}
+
+#definitiontext {
+    padding-bottom: 40px;
+}
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/process" method="post">
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname">
+        </div>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" name="email">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="password">Confirm Password:</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob">
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="Female" id="Female">
+            <label for="Female">Female<label>
+            <input type="radio" name="gender" value="Male" id="Male">
+            <label for="Male">Male<label>
+            <input type="radio" name="gender" value="nonbinary" id="nonbinary">
+            <label for="Non-binary">Non-binary</label><label>
+            <input type="radio" name="gender" value="Noanswer" id="Noanswer">
+            <label for="Noanswer">I Prefer Not to Answer</label><label>
+        </div>
+        <div>
+            <label for="description">A <strong>short</strong> description about yourself:</label>
+            <br>
+            <textarea name="comment" cols="20" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="favcolor">Favorite Color:</label>
+            <select name="color">
+                <option>Blue</option>
+                <option>Green</option>
+                <option>Red</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="favcolorselect">Show me please:</label>
+            <input type="color" name="text_color">
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" checked>
+            <label for="subscribe">Would you like to receive a lot of spam emails?<label>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

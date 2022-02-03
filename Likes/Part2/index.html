@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="header">Network</h1>
+    <h2 id="yourfeed">Your Feed</h2>
+    <div class="container">
+        <div id="leftcolumn">
+            <div id="userprofile">
+                <img id="usercircle" src="./user-circle.png" alt="usercircle">
+                <p><a href="">Add an avatar</a></p>
+                <h3>James Doe</h3>
+            </div>
+        </div>
+        <div id="rightcolumn">
+            <div class="posts">
+                <div id="top">
+                    <h2 class="username">Neil M</h2>
+                    <p id=likescounter><span id="likesnumber1">0</span> like(s)</p>
+                    <button onclick="addlike1()" id="likebtn">Like</button>
+                </div>
+                <p id="bottom">
+                I just set up this new discord bot, let me know what you all think. <a href="">link</a>
+                <p>
+            </div>
+            <div class="posts">
+                <div id="top">
+                    <h2 class="username">Nichole K</h2>
+                    <p id=likescounter><span id="likesnumber2">0</span> like(s)</p>
+                    <button onclick="addlike2()" id="likebtn">Like</button>
+                </div>
+                <p id="bottom">
+                Just finished my <a href="">next comic,</a> check it out.
+                <p>
+            </div>
+            <div class="posts">
+                <div id="top">
+                    <h2 class="username">Jim R</h2>
+                    <p id=likescounter><span id="likesnumber3">0</span> like(s)</p>
+                    <button onclick="addlike3()" id="likebtn">Like</button>
+                </div>
+                <p id="bottom">
+                I can't stop listening to the <a href="">new album.</a> Who else is liking it?
+                <p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

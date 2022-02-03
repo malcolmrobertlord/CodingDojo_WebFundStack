@@ -1,0 +1,28 @@
+* {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+h1 {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+#cloud {
+    color:turquoise
+}
+
+h2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: right;
+    text-decoration: underline;
+    background-color:rgb(125, 196, 214);
+}

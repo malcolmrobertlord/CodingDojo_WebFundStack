@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* header */
+
+#header {
+    background-color: black;
+    height: 40px;
+    color: white;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+/* feed */
+
+#yourfeed {
+    margin: auto;
+    width: 150px;
+    padding: 20px;
+}
+
+/* organizing main content bottom */
+
+.container {
+    width: 720px;
+    height: 900px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#leftcolumn {
+    flex: 1;
+}
+
+#rightcolumn {
+    flex: 2;
+}
+
+/* left column content */
+
+#userprofile{
+    width: 80%;
+    border: 2px solid black;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#userprofile img {
+    width: 90px;
+    padding-top: 10px;
+}
+
+#userprofile p {
+    flex: 1;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#userprofile h3 {
+    flex: 2;
+    text-align: center;
+}
+
+/* right column content */
+.posts {
+    height: 100px;
+    padding: 20px;
+    border: 2px solid;
+    margin-bottom: 20px;
+}
+
+.username {
+    width: 250px;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#likebtn {
+    width: 60px;
+    height: 30px;
+    background-color: rgb(236, 222, 91);
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
+}
+
+#bottom {
+    margin-top: 40px;
+}

@@ -1,0 +1,26 @@
+#container {
+    background-color: white;
+    border-style: solid;
+    height: 400px;
+    width: 650px;
+    display: inline-block;
+}
+
+#topbluerow {
+    background-color: skyblue;
+    height: 80px;
+    margin-top: 60px;
+}
+
+#stars {
+    background-color: white;
+    padding: 0px;
+    margin-left: 40px;
+    height:104px;
+}
+
+#bottombluerow {
+    background-color: skyblue;
+    height: 80px;
+    margin-bottom: 60px;
+}
